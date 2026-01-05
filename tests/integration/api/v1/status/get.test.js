@@ -1,5 +1,5 @@
 test("GET to /api/v1/status should return 200", async () => {
-  const response = await fetch("http://localhost:3003/api/v1/status");
+  const response = await fetch("http://localhost:3004/api/v1/status");
   expect(response.status).toBe(200);
 
   const responseBody = await response.json();
